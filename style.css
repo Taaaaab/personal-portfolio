@@ -75,6 +75,7 @@ main {
 .card {
     box-shadow: rgba(0, 0, 0, 0.198) 0px 5px 5px;
     background-color: #fff;
+    height: 100%;
 }
 
 .screenshot {
@@ -91,7 +92,7 @@ main {
 }
  
 .description {
-    padding-bottom: 25px;
+    padding: 25px;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -116,7 +117,7 @@ h2 {
 .phone-box {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 12px;
     padding-top: 20px;
     margin-bottom: 10px;
 }
@@ -124,7 +125,7 @@ h2 {
 .email-box {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 12px;
     padding-bottom: 20px;
 }
 
