@@ -83,9 +83,13 @@ footer {
     color: #fff;
 }
 
+h2 {
+    font-size: 34px;
+}
+
 .contact {
     padding-left: 62px;
-    padding-top: 22px;
+    padding-top: 32px;
     padding-bottom: 62px;
     display: flex;
     flex-direction: column;
@@ -94,14 +98,15 @@ footer {
 .phone-box {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     padding-top: 20px;
+    margin-bottom: 10px;
 }
 
 .email-box {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     padding-bottom: 20px;
 }
 
@@ -118,4 +123,8 @@ i {
 .contact-img {
     display: flex;
     gap: 15px;
+}
+
+.icon {
+    max-width: 34px;
 }
