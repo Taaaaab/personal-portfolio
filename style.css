@@ -68,14 +68,32 @@ main {
 .container {
     display: grid;
     align-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 30px;
 }
 
 .card {
     box-shadow: rgba(0, 0, 0, 0.198) 0px 5px 5px;
     background-color: #fff;
-    padding: 20px;
+}
+
+.screenshot {
+    max-width: 100%;
+}
+
+.title-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0;
+}
+ 
+.description {
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 footer {
@@ -119,6 +137,10 @@ h2 {
 i {
     font-size: 24px;
 } 
+
+.link-icon {
+    max-width: 24px;
+}
 
 .contact-img {
     display: flex;
