@@ -17,6 +17,7 @@ body {
     body {
       display: grid;
       grid-template-columns: 1fr;
+      justify-content: center;
     }
 }
 
@@ -89,6 +90,7 @@ main {
 
 .container {
     display: grid;
+    justify-content: center;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 30px;
@@ -129,11 +131,9 @@ h2 {
 }
 
 .contact {
-    padding-left: 62px;
-    padding-top: 32px;
-    padding-bottom: 62px;
     display: flex;
     flex-direction: column;
+    padding: 28px;
 }
 
 .phone-box {
