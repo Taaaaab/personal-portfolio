@@ -133,7 +133,8 @@ h2 {
 .contact {
     display: flex;
     flex-direction: column;
-    padding: 28px;
+    padding: 62px;
+    margin-top: -40px;
 }
 
 .phone-box {
