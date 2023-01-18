@@ -110,9 +110,14 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 0;
+}
+
+.link-box {
+    display: flex;
+    gap: 5px;
 }
  
 .description {
