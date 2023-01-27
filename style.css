@@ -74,8 +74,8 @@ span {
     flex-direction: column;
     justify-content: space-between;
     box-shadow: rgba(0, 0, 0, 0.198) 0px 5px 5px;
-    padding: 25px;
-    height: 220px;
+    padding: 30px;
+    height: auto;
 }
 
 .icons-box {
