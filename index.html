@@ -10,8 +10,23 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
+    <nav>
+        <div class="nav-items">
+            <ul class="nav-list">
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#work">Work</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <header>
-    <div class="header-container">
+    <div id="about" class="header-container">
         <div class="header-photo">
             <h1 class="header-name">Owen Whitsett</h1>
             <img class="linkedin-photo" src="./photos/linkedin.JPG" />
@@ -20,10 +35,13 @@
             <h2>About me</h2>
             <span>Beginner web developer seeking a career change. Recently completed The Odin Project Foundations and Full Stack JavaScript courses. Also have obtained Introduction to MongoDB and AWS Certified Cloud Practitioner certifications. Goal for this year and beyond to continue learning and contribute to a new team.</span>
             <div class="icons-box">
-                <a href="https://github.com/Taaaaab">
-                    <img class="icon" src="./photos/github.png" alt="github" />
+                <a class="header-link" href="https://drive.google.com/file/d/13MW9GV5UweUqsfRFXjQ3LXtW07T78MMh/view?usp=sharing">
+                    Resume
                 </a>
-                <a href="https://www.linkedin.com/in/owen-w">
+                <a class="header-link" href="mailto:owen.whitsett@gmail.com">
+                    Email
+                </a>
+                <a class="header-link" href="https://www.linkedin.com/in/owen-w">
                     <img class="icon" src="./photos/linkedin.png" alt="linked in" />
                 </a>
             </div>
@@ -31,7 +49,7 @@
     </div>
     </header>
     <main>
-        <h2>My work</h2>
+        <h2 id="work">My work</h2>
         <div class="container">
             <div class="card">
                 <img class="screenshot" src="./photos/instagram-clone.png" alt="instagram clone" />
@@ -217,15 +235,17 @@
     </main>
     <footer>
         <div class="contact">
-            <h2>Contact me</h2>
+            <h2 id="contact">Contact</h2>
             <div>Please get in touch if you think our work could be mutually beneficial!</div>
             <div class="phone-box">
                 <span class="material-symbols-outlined">call</span>
                 <span>+1 845-745-2436</span>
             </div>
             <div class="email-box">
-                <span class="material-symbols-outlined">mail</span>
-                <span>owen.whitsett@gmail.com</span>
+                <a class="email" href="mailto:owen.whitsett@gmail.com">
+                    <div class="material-symbols-outlined">mail</div>
+                    owen.whitsett@gmail.com
+                </a>
             </div>
             <div class="contact-img">
                 <a class="img-contact" href="https://github.com/Taaaaab">
@@ -236,6 +256,7 @@
                 </a>
             </div>
         </div>
+        <small>Copyright © <script>document.write(new Date().getFullYear())</script> Owen Whitsett</small>
     </footer>
 </body>
 </html>
