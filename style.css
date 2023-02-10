@@ -253,20 +253,19 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 10px;
+    padding-right: 1rem;
+    padding-left: 1rem;
     margin: 0;
 }
 
 .link-box {
     display: flex;
-    gap: 1rem;
+    gap: 10px;
 }
  
 .description {
-    padding: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 1rem;
 }
 
 .contact {
