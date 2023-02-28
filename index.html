@@ -1,155 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Owen Whitsett - Web Developer</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
     <nav>
-        <div class="nav-items" id="navbar">
-            <ul class="nav-list">
-                <li class="nav-item">
-                    <a href="#work">Work</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
+      <div class="nav-items" id="navbar">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <header class="hero">
-        <div class="hero-container">
-            <h1>
-                I'm Owen Whitsett,
-                <br>
-                a New York-based web developer.
-            </h1>
-        </div>
+      <div class="hero-container">
+        <h1>
+          I'm Owen Whitsett,
+          <br />
+          a New York-based web developer.
+        </h1>
+      </div>
     </header>
     <main>
-        <h2 id="work">My work</h2>
-        <div class="container">
-            <div class="card">
-                <img class="screenshot" src="./photos/instagram-clone.png" alt="instagram clone" />
-                <div class="title-box">
-                    <h3>Instagram Clone</h3>
-                    <div class="link-box">
-                        <a href="https://github.com/Taaaaab/instagram-clone">
-                            <img class="link-icon" src="./photos/github.png" alt="github" />
-                        </a>
-                        <a href="https://taaaaab.github.io/instagram-clone/#/">
-                            <img class="link-icon" src="./photos/link.png" alt="link to github pages site" />
-                        </a>
-                    </div>
-                </div>
-                <div class="description">Clone of Instagram using React and Firebase. Users can create account and upload images. Images stored in Firebase with working like and comment system.</div>
+      <h2 id="work">My work</h2>
+      <div class="container">
+        <div class="card">
+          <img
+            class="screenshot"
+            src="./photos/instagram-clone.png"
+            alt="instagram clone"
+          />
+          <div class="title-box">
+            <h3>Instagram Clone</h3>
+            <div class="link-box">
+              <a href="https://github.com/Taaaaab/instagram-clone">
+                <img class="link-icon" src="./photos/github.png" alt="github" />
+              </a>
+              <a href="https://taaaaab.github.io/instagram-clone/#/">
+                <img
+                  class="link-icon"
+                  src="./photos/link.png"
+                  alt="link to github pages site"
+                />
+              </a>
             </div>
-            <div class="card">
-                <img class="screenshot" src="./photos/blog.png" alt="members only website" />
-                <div class="title-box">
-                    <h3>Blog API</h3>
-                    <div class="link-box">
-                        <a href="https://github.com/Taaaaab/blog-api">
-                            <img class="link-icon" src="./photos/github.png" alt="github" />
-                        </a>
-                    </div>
-                </div>
-                <div class="description">Blog created using Express and MongoDB. Project to practice using an API only backend to obtain posts and comments.</div>
-            </div>
-            <div class="card">
-                <img class="screenshot" src="./photos/members.png" alt="members only website" />
-                <div class="title-box">
-                    <h3>Members Only</h3>
-                    <div class="link-box">
-                        <a href="https://github.com/Taaaaab/members-only">
-                            <img class="link-icon" src="./photos/github.png" alt="github" />
-                        </a>
-                        <a href="https://members-only-production-6f46.up.railway.app/">
-                            <img class="link-icon" src="./photos/link.png" alt="link to Railway site" />
-                        </a>
-                    </div>
-                </div>
-                <div class="description">Message board project to test authentication using passportJS and bcryptjs. Guest visitors given ability to view message text. Regular users able to post messages and view the author and timestamp. Admin users given the same view with additional ability to delete posts. Users and messages stored using MongoDB.</div>
-            </div>
-            <div class="card">
-                <img class="screenshot" src="./photos/wildlife.png" alt="wildlife preserve website" />
-                <div class="title-box">
-                    <h3>Wildlife Preserve Website</h3>
-                    <div class="link-box">
-                        <a href="https://github.com/Taaaaab/wildlife-inventory-application">
-                            <img class="link-icon" src="./photos/github.png" alt="github" />
-                        </a>
-                        <a href="https://wildlife-inventory-application-production.up.railway.app/wildlife/animals">
-                            <img class="link-icon" src="./photos/link.png" alt="link to Railway site" />
-                        </a>
-                    </div>
-                </div>
-                <div class="description">Example Wildlife Preserve website using Express. Inventory of animals, classification, order and status in the preserve. Project to practice using backend MongoDB database with working CRUD operations using Mongoose.</div>
-            </div>
-            <div class="card">
-                <img class="screenshot" src="./photos/memory-card.png" alt="memory card game screenshot" />
-                <div class="title-box">
-                    <h3>Memory Card Game</h3>
-                    <div class="link-box">
-                        <a href="https://github.com/Taaaaab/memory-card">
-                            <img class="link-icon" src="./photos/github.png" alt="github" />
-                        </a>
-                        <a href="https://taaaaab.github.io/memory-card/">
-                            <img class="link-icon" src="./photos/link.png" alt="link to github pages site" />
-                        </a>
-                    </div>
-                </div>
-                <div class="description">Memory card game using React. Select unique animals and grid will re-shuffle on each selection. Current streak and high-score displayed.</div>
-            </div>
-            <div class="card">
-                <img class="screenshot" src="./photos/wheres-waldo.png" alt="wheres waldo screenshot" />
-                <div class="title-box">
-                    <h3>Where's Waldo</h3>
-                    <div class="link-box">
-                        <a href="https://github.com/Taaaaab/wheres-waldo-project">
-                            <img class="link-icon" src="./photos/github.png" alt="github" />
-                        </a>
-                    </div>
-                </div>
-                <div class="description">Where's Waldo game created with Firebase. Users are timed to find 3 characters from "The Simpsons" wallpaper. Locations are stored in Firebase and feedback is provided when characters are found.</div>
-            </div>
-            <div class="card">
-                <img class="screenshot" src="./photos/weather-app.png" alt="weather app screenshot" />
-                <div class="title-box">
-                    <h3>Weather App</h3>
-                    <div class="link-box"> 
-                        <a href="https://github.com/Taaaaab/weather-app">
-                            <img class="link-icon" src="./photos/github.png" alt="github" />
-                        </a>
-                        <a href="https://taaaaab.github.io/weather-app/">
-                            <img class="link-icon" src="./photos/link.png" alt="link to github pages site" />
-                        </a>
-                    </div>
-                </div>
-                <div class="description">Weather app using OpenWeatherMap API. Simple site to practice fetch API requests and lookup forecast for any location.</div>
-            </div>
+          </div>
+          <div class="description">
+            Clone of Instagram using React and Firebase. Users can create
+            account and upload images. Images stored in Firebase with working
+            like and comment system.
+          </div>
         </div>
+        <div class="card">
+          <img
+            class="screenshot"
+            src="./photos/blog.png"
+            alt="members only website"
+          />
+          <div class="title-box">
+            <h3>Blog API</h3>
+            <div class="link-box">
+              <a href="https://github.com/Taaaaab/blog-api">
+                <img class="link-icon" src="./photos/github.png" alt="github" />
+              </a>
+            </div>
+          </div>
+          <div class="description">
+            Blog created using Express and MongoDB. Project to practice using an
+            API only backend to obtain posts and comments.
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="screenshot"
+            src="./photos/members.png"
+            alt="members only website"
+          />
+          <div class="title-box">
+            <h3>Members Only</h3>
+            <div class="link-box">
+              <a href="https://github.com/Taaaaab/members-only">
+                <img class="link-icon" src="./photos/github.png" alt="github" />
+              </a>
+              <a href="https://members-only-production-6f46.up.railway.app/">
+                <img
+                  class="link-icon"
+                  src="./photos/link.png"
+                  alt="link to Railway site"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="description">
+            Message board project to test authentication using passportJS and
+            bcryptjs. Guest visitors given ability to view message text. Regular
+            users able to post messages and view the author and timestamp. Admin
+            users given the same view with additional ability to delete posts.
+            Users and messages stored using MongoDB.
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="screenshot"
+            src="./photos/job-board.png"
+            alt="job board web scraper"
+          />
+          <div class="title-box">
+            <h3>Job Board Web Scraper</h3>
+            <div class="link-box">
+              <a href="https://github.com/Taaaaab/job-board-web-scraper">
+                <img class="link-icon" src="./photos/github.png" alt="github" />
+              </a>
+              <a
+                href="https://github.com/Taaaaab/personal-portfolio/blob/main/photos/job-board.png"
+              >
+                <img
+                  class="link-icon"
+                  src="./photos/link.png"
+                  alt="link to job board screenshot"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="description">
+            Project to practice web scraping using Puppeteer. Application to
+            grab relevant job postings from multiple job boards, save them as
+            JSON data and display within cards which have a link to the posting.
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="screenshot"
+            src="./photos/wildlife.png"
+            alt="wildlife preserve website"
+          />
+          <div class="title-box">
+            <h3>Wildlife Preserve Website</h3>
+            <div class="link-box">
+              <a
+                href="https://github.com/Taaaaab/wildlife-inventory-application"
+              >
+                <img class="link-icon" src="./photos/github.png" alt="github" />
+              </a>
+              <a
+                href="https://wildlife-inventory-application-production.up.railway.app/wildlife/animals"
+              >
+                <img
+                  class="link-icon"
+                  src="./photos/link.png"
+                  alt="link to Railway site"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="description">
+            Example Wildlife Preserve website using Express. Inventory of
+            animals, classification, order and status in the preserve. Project
+            to practice using backend MongoDB database with working CRUD
+            operations using Mongoose.
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="screenshot"
+            src="./photos/memory-card.png"
+            alt="memory card game screenshot"
+          />
+          <div class="title-box">
+            <h3>Memory Card Game</h3>
+            <div class="link-box">
+              <a href="https://github.com/Taaaaab/memory-card">
+                <img class="link-icon" src="./photos/github.png" alt="github" />
+              </a>
+              <a href="https://taaaaab.github.io/memory-card/">
+                <img
+                  class="link-icon"
+                  src="./photos/link.png"
+                  alt="link to github pages site"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="description">
+            Memory card game using React. Select unique animals and grid will
+            re-shuffle on each selection. Current streak and high-score
+            displayed.
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="screenshot"
+            src="./photos/wheres-waldo.png"
+            alt="wheres waldo screenshot"
+          />
+          <div class="title-box">
+            <h3>Where's Waldo</h3>
+            <div class="link-box">
+              <a href="https://github.com/Taaaaab/wheres-waldo-project">
+                <img class="link-icon" src="./photos/github.png" alt="github" />
+              </a>
+            </div>
+          </div>
+          <div class="description">
+            Where's Waldo game created with Firebase. Users are timed to find 3
+            characters from "The Simpsons" wallpaper. Locations are stored in
+            Firebase and feedback is provided when characters are found.
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="screenshot"
+            src="./photos/weather-app.png"
+            alt="weather app screenshot"
+          />
+          <div class="title-box">
+            <h3>Weather App</h3>
+            <div class="link-box">
+              <a href="https://github.com/Taaaaab/weather-app">
+                <img class="link-icon" src="./photos/github.png" alt="github" />
+              </a>
+              <a href="https://taaaaab.github.io/weather-app/">
+                <img
+                  class="link-icon"
+                  src="./photos/link.png"
+                  alt="link to github pages site"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="description">
+            Weather app using OpenWeatherMap API. Simple site to practice fetch
+            API requests and lookup forecast for any location.
+          </div>
+        </div>
+      </div>
     </main>
     <div class="contact">
-        <h2 id="contact">Contact</h2>
-        <div class="email-box">
-            <a href="mailto:owen.whitsett@gmail.com" title="Email for Owen Whitsett" class="contact-links">
-                <div class="material-symbols-outlined">mail</div>
-                owen.whitsett@gmail.com
-            </a>
-        </div>
-        <a href="https://www.linkedin.com/in/owen-w" title="LinkedIn for Owen Whitsett" class="contact-links">
-            <img class="icon" src="./photos/linkedin-white.png" alt="Owen Whitsett LinkedIn" />
-            LinkedIn
+      <h2 id="contact">Contact</h2>
+      <div class="email-box">
+        <a
+          href="mailto:owen.whitsett@gmail.com"
+          title="Email for Owen Whitsett"
+          class="contact-links"
+        >
+          <div class="material-symbols-outlined">mail</div>
+          owen.whitsett@gmail.com
         </a>
-        <footer>
-            <small>Copyright © <script>document.write(new Date().getFullYear())</script> Owen Whitsett</small>
-        </footer>
+      </div>
+      <a
+        href="https://www.linkedin.com/in/owen-w"
+        title="LinkedIn for Owen Whitsett"
+        class="contact-links"
+      >
+        <img
+          class="icon"
+          src="./photos/linkedin-white.png"
+          alt="Owen Whitsett LinkedIn"
+        />
+        LinkedIn
+      </a>
+      <footer>
+        <small
+          >Copyright ©
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          Owen Whitsett</small
+        >
+      </footer>
     </div>
-</body>
+  </body>
 </html>
