@@ -4,4 +4,4 @@ Portfolio website to display screenshot and summary of web development projects.
 
 ## Screenshot
 
-![Alt text](https://github.com/Taaaaab/personal-portfolio/blob/main/photos/personal.png?raw=true "Portfolio screenshot")
+![Alt text](https://github.com/Taaaaab/personal-portfolio/blob/main/photos/portfolio-screenshot.png?raw=true "Portfolio screenshot")
