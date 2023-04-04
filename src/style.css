@@ -289,6 +289,7 @@ header {
   max-width: 28px;
   display: grid;
   place-content: center;
+  cursor: pointer;
 }
 
 .card-description {
