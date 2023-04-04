@@ -1,6 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Merriweather:wght@300;400;700;900&display=swap');
-meta.foundation-version {
-  font-family: '/5.4.3/';
+@font-face {
+  font-family: 'Lato';
+  src: url('./assets/Lato/Lato-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('./assets/Lato/Lato-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('./assets/Lato/Lato-Black.ttf');
+  font-weight: 900;
+  font-style: normal;
 }
 
 html {
