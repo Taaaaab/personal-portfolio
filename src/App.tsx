@@ -33,7 +33,7 @@ function App() {
                 <h3>Opening Night Lighting LLC Website</h3>
                 <div className="link-box">
                   <a
-                    href="www.openingnightlighting.com/"
+                    href="http://openingnightlighting.com/"
                     className="link-icon"
                     title="Opening Night Lighting LLC Website"
                   >
