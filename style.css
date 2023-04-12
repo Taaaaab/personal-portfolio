@@ -1,20 +1,20 @@
 @font-face {
   font-family: 'Lato';
-  src: url('./assets/Lato/Lato-Regular.ttf');
+  src: url('./Lato/Lato-Regular.ttf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Lato';
-  src: url('./assets/Lato/Lato-Bold.ttf');
+  src: url('./Lato/Lato-Bold.ttf');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Lato';
-  src: url('./assets/Lato/Lato-Black.ttf');
+  src: url('./Lato/Lato-Black.ttf');
   font-weight: 900;
   font-style: normal;
 }
@@ -155,7 +155,10 @@ img {
 /* Navbar */
 
 .navbar {
-  background-color: transparent;
+  background-color: rgba(42, 86, 99, 0.8);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0.5px 0.5px 0 rgba(0, 0, 0, 0.2);
+
   position: fixed;
   height: 62px;
   width: 100%;
@@ -165,8 +168,6 @@ img {
 
 .navbar.active {
   background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(4px);
-  box-shadow: 0 0.5px 0.5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .navbar-links {
@@ -174,15 +175,9 @@ img {
   justify-content: space-around;
 }
 
-.navbar-links ul {
-  margin: 0;
-  padding-right: 1rem;
-  float: right;
-}
-
 .navbar-links li {
-  padding: 18px 14px;
   display: inline-block;
+  padding-right: 2rem;
 }
 
 .navbar-links li a {
@@ -356,44 +351,6 @@ footer {
 }
 
 @media (max-width: 640px) {
-  .toggle-button {
-    display: flex;
-  }
-
-  .navbar-links {
-    display: none;
-    width: 100%;
-  }
-
-  .navbar-links ul {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding-top: 1rem;
-  }
-
-  .navbar-links li a {
-    padding-left: 1rem;
-    color: #696969;
-  }
-
-  .navbar-links.active {
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    top: 62px;
-    height: 100vh;
-  }
-
-  .navbar-links.active .navbar-list li a:hover {
-    box-shadow: none;
-    color: #000;
-  }
-
-  .navbar-links.active .navbar-list.active li a:hover {
-    box-shadow: none;
-  }
-
   header {
     padding: 10rem 1rem;
   }
