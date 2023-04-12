@@ -8,9 +8,6 @@ Portfolio website to display screenshot and summary of web development projects.
 
 - HTML5
 - CSS3
-- TypeScript
-- Vite
-- React
 
 ## Live Demo
 
