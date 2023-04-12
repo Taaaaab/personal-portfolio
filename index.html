@@ -11,8 +11,21 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(document).scrollTop() > 50) {
+            $('nav').addClass('active');
+          } else {
+            $('nav').removeClass('active');
+          }
+        });
+      });
+    </script>
+
     <div class="container">
-      <nav class="navbar">
+      <nav class="navbar" id="navbar">
         <div class="navbar-links">
           <img src="" alt="" class="logo-image" />
           <img src="" alt="" class="logo-image" />

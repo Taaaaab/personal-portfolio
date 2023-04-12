@@ -155,10 +155,7 @@ img {
 /* Navbar */
 
 .navbar {
-  background-color: rgba(42, 86, 99, 0.8);
-  backdrop-filter: blur(4px);
-  box-shadow: 0 0.5px 0.5px 0 rgba(0, 0, 0, 0.2);
-
+  background-color: transparent;
   position: fixed;
   height: 62px;
   width: 100%;
@@ -168,6 +165,9 @@ img {
 
 .navbar.active {
   background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0.5px 0.5px 0 rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
 
 .navbar-links {
@@ -194,13 +194,13 @@ img {
   transition: all ease 0.2s;
 }
 
-.navbar-list.active li a {
+.navbar.active li a {
   color: #696969;
   box-shadow: none;
   transition: all ease-out 0.2s;
 }
 
-.navbar-list.active li a:hover {
+.navbar.active li a:hover {
   color: #000;
   box-shadow: 0 2px 0 0 rgb(0, 0, 0);
   transition: all ease 0.2s;
