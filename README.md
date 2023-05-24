@@ -2,17 +2,20 @@
 
 Portfolio website to display screenshot and summary of web development projects. Includes links to respective github repository and deployed location.
 
+**Link to project:** https://owenwhitsett.com/
+
 ![Alt text](https://raw.githubusercontent.com/Taaaaab/personal-portfolio/main/images/portfolio.png 'Portfolio screenshot')
 
-## Built With
+## How It's Made:
 
-- HTML5
-- CSS3
+**Tech used:** HTML, CSS, JavaScript
 
-## Live Demo
+Created website to showcase my work. Used template from HTML5 UP.
 
-[Personal Portfolio](https://taaaaab.github.io/personal-portfolio/)
+## Examples:
 
-## Deployed on GitHub Pages
+Take a look at these couple examples that I have in my own portfolio:
 
-Deployed on [GitHub Pages](https://pages.github.com/)
+**Instagram Clone:** https://github.com/Taaaaab/instagram-clone
+
+**Blog API:** https://github.com/Taaaaab/blog-api
