@@ -2,7 +2,7 @@
 
 Portfolio website to display screenshot and summary of web development projects. Includes links to respective github repository and deployed location.
 
-![Alt text](https://raw.githubusercontent.com/Taaaaab/personal-portfolio/main/images/portfolio-screenshot.png 'Portfolio screenshot')
+![Alt text](https://raw.githubusercontent.com/Taaaaab/personal-portfolio/main/images/portfolio.png 'Portfolio screenshot')
 
 ## Built With
 
