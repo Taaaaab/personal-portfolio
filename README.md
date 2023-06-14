@@ -16,8 +16,8 @@ Created website to showcase my work. Used template from HTML5 UP.
 
 Take a look at these couple examples that I have in my own portfolio:
 
-**AI Tour Guide** https://taaaaab.github.io/ai-tour-guide/
+**Memory Card Game:** https://github.com/Taaaaab/memory-card
 
-**Instagram Clone:** https://github.com/Taaaaab/instagram-clone
+**Wildlife Inventory Application:** https://github.com/Taaaaab/wildlife-inventory-application
 
-**Blog API:** https://github.com/Taaaaab/blog-api
+**Weather App:** https://github.com/Taaaaab/weather-app
