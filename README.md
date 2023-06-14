@@ -4,7 +4,7 @@ Portfolio website to display screenshot and summary of web development projects.
 
 **Link to project:** https://owenwhitsett.com/
 
-![Alt text](https://raw.githubusercontent.com/Taaaaab/personal-portfolio/main/images/portfolio.png 'Portfolio screenshot')
+![Alt text](https://github.com/Taaaaab/Taaaaab/blob/main/portfolio.gif)
 
 ## How It's Made:
 
