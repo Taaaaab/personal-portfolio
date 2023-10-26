@@ -2,7 +2,7 @@
 
 Portfolio website to display screenshot and summary of web development projects. Includes links to respective github repository and deployed location.
 
-**Link to project:** https://owenwhitsett.com/
+**Link to project:** https://taaaaab.github.io/personal-portfolio/
 
 ![Alt text](https://github.com/Taaaaab/Taaaaab/blob/main/portfolio.gif)
 
